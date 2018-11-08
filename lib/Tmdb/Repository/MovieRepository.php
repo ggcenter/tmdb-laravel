@@ -156,7 +156,7 @@ class MovieRepository extends AbstractRepository
     public function getReleases($id, array $parameters = [], array $headers = [])
     {
         $data  = $this->getApi()->getReleases($id, $this->parseQueryParameters($parameters), $headers);
-        $movie = $this->getFactory()->create(['releases' => $data]);
+        $movie = $this->getFactory()->create(['release_dates' => $data]);
 
         return $movie->getReleases();
     }
