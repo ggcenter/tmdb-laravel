@@ -94,7 +94,7 @@ class Movies extends AbstractApi
      */
     public function getReleases($movie_id, array $parameters = [], array $headers = [])
     {
-        return $this->get('movie/' . $movie_id . '/releases', $parameters, $headers);
+        return $this->get('movie/' . $movie_id . '/release_dates', $parameters, $headers);
     }
 
     /**
