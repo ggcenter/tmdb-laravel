@@ -33,13 +33,13 @@ $ sudo mv composer.phar /usr/local/bin/composer
 Add the following to your require block in `composer.json` config
 
 ```
-"php-tmdb/laravel": "~1.0"
+"evinkuraga/laravel": "~1.0"
 ```
 
 or just run the following command in your project:
 
 ```
-composer require php-tmdb/laravel
+composer require evinkuraga/laravel
 ```
 
 ## Configuration
