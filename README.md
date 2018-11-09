@@ -1,3 +1,6 @@
+# This is an fork of php-tmdb/api
+Due to changes in the TMDB api and lack of maintenance on the original package, I've created a fork to reflect the later changes. I will update this as I find more changes since a project I actively use is heavily dependant on the TMDB api.
+
 # A PHP Wrapper for use with the [TMDB API](http://docs.themoviedb.apiary.io/).
 
 [![License](https://poser.pugx.org/php-tmdb/api/license.png)](https://packagist.org/packages/php-tmdb/api)
