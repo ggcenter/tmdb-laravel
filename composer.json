@@ -7,9 +7,12 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Michael Roterman",
+            "name": "OA: Michael Roterman",
             "homepage": "http://wtfz.net",
             "email": "michael@wtfz.net"
+        },
+        {
+            "name": "Maintainer: Evin Kuraga"
         }
     ],
     "require": {
