@@ -4,7 +4,6 @@ Due to changes in the TMDB api and lack of maintenance on the original package, 
 # A PHP Wrapper for use with the [TMDB API](http://docs.themoviedb.apiary.io/).
 
 [![License](https://poser.pugx.org/php-tmdb/api/license.png)](https://packagist.org/packages/php-tmdb/api)
-[![Build Status](https://travis-ci.org/php-tmdb/api.svg?branch=2.1)](https://travis-ci.org/php-tmdb/api)
 [![Code Coverage](https://scrutinizer-ci.com/g/php-tmdb/api/badges/coverage.png?b=2.1)](https://scrutinizer-ci.com/g/php-tmdb/api/?branch=2.1)
 [![PHP & HHVM](https://img.shields.io/badge/php->=5.6,%20HHVM-8892BF.svg)](http://hhvm.h4cc.de/package/php-tmdb/api)
 
@@ -62,7 +61,7 @@ _You are not obliged to move the `composer.phar` file to your `/usr/local/bin`, 
 Add the following to your require block in `composer.json` config
 
 ```json
-"php-tmdb/api": "~2.1"
+"php-tmdb/api": "~2.2"
 ```
 
 __If your new to composer and have no clue what I'm talking about__
