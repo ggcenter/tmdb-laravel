@@ -16,7 +16,7 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~5.0 || ~4.0",
-        "evinkuraga/tmdb-api": "~2.1"
+        "evinkuraga/tmdb-api": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.5",
