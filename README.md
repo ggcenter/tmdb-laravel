@@ -1,3 +1,6 @@
+# This is an updated fork from php-tmdb
+This is a fork of the package php-tmdb/laravel. Instead of waiting for the maintainer to update the php-tmdb/api package to reflect the latest changes from the API, I've decided to fix these. These packages are actively used for http://flixi.com, which means these we will be most likely maintaining these with regular updates as the TMDB api integrates new changes. Original Description: Laravel Package for TMDB ( The Movie Database ) API. Provides easy access to the wtfzdotnet/php-tmdb-api library. 
+
 # Laravel Package for TMDB API Wrapper
 
 [![License](https://poser.pugx.org/php-tmdb/laravel/license.png)](https://packagist.org/packages/php-tmdb/laravel)
