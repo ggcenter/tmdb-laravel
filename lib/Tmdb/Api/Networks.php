@@ -34,4 +34,20 @@ class Networks extends AbstractApi
     {
         return $this->get('network/' . $network_id, $parameters, $headers);
     }
+    /**
+     * This method is used to retrieve the Alternative Titles about a TV network.
+     *
+     * You can use this ID to search for TV shows with the discover.
+     * At this time we don't have much but this will be fleshed out over time.
+     *
+     * @param  int   $network_id
+     * @param  array $parameters
+     * @param  array $headers
+     * @return mixed
+     */
+    public function getAlternativeNames($network_id, array $parameters = [], array $headers = [])
+    {
+        return $this->get('network/' . $network_id.'/alternative_names', $parameters, $headers);
+    }
+
 }
